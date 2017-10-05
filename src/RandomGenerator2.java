@@ -9,7 +9,7 @@ public class RandomGenerator2 {
         for (int i = 1; i <= 10; ++i)
         {
             // changed to generate number between 5 and 95
-            int randomInt = 5 + rnd.nextInt(95);
+            int randomInt = 5 + rnd.nextInt(90);
             output("Generated number: " + randomInt);
         }
 
